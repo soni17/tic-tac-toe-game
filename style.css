@@ -1,13 +1,42 @@
+#container{
+  width:609px;
+  margin: 0 auto;
+}
 
-  #grid, #grid td{
-    border:1px solid black;
-  }
+#grid{
+  border:1px solid black;
+  border-collapse: collapse;
+  margin-top: 50px;
+}
 
-  #grid{
-    margin:0 auto;
-  }
+#grid td{
+  font-size:170px;
+  font-family:sans-serif;
+  text-align:center;
+  width: 200px;
+  height: 200px;
+  border:1px solid black;
+}
 
-  #grid td{
-    width: 150px;
-    height: 150px;
-  }
+#grid td:hover{
+  background-color: #ebebeb;
+}
+
+#startGame{
+  padding: 10px;
+  width: 100px;
+}
+
+#message{
+  color:blue;
+  font-size:25px;
+  font-weight:bold;
+}
+
+.X{
+  color: red;
+}
+
+.O{
+  color:green;
+}
